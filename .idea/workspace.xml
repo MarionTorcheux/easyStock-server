@@ -7,11 +7,10 @@
     <list default="true" id="6a068370-bc4c-4699-be06-507132258964" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/Role.ts" beforeDir="false" afterPath="$PROJECT_DIR$/models/Role.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/User.ts" beforeDir="false" afterPath="$PROJECT_DIR$/models/User.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/1.0.0.createPermissions.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/index.ts" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +55,7 @@
       <updated>1689925362064</updated>
       <workItem from="1689925363257" duration="7808000" />
       <workItem from="1690279462254" duration="1866000" />
-      <workItem from="1690360400776" duration="7161000" />
+      <workItem from="1690360400776" duration="8150000" />
     </task>
     <servers />
   </component>
