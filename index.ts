@@ -1,6 +1,7 @@
 import {Request, Response} from "express";
 import User from "./models/User";
 import Role from "./models/Role";
+import Permission from "./models/Permission";
 
 const express = require('express');
 const app = express();
