@@ -1,15 +1,18 @@
 {
   "name": "easystock-server",
+  "type": "module",
   "version": "1.0.0",
   "description": "",
   "main": "index.ts",
   "scripts": {
     "start": "nodemon index.ts",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "migrations": "ts-node --esm ./migrations/index.ts"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bluebird": "^3.7.2",
     "express": "^4.18.2",
     "mongodb": "^5.7.0",
     "mongoose": "^7.4.0",

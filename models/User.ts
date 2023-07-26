@@ -8,6 +8,8 @@ interface IUser {
   lastname: string;
   email: string;
   password: string;
+  roles : Types.ObjectId[];
+
 }
 
 // 2. Create a Schema corresponding to the document interface.
@@ -17,7 +19,11 @@ const userSchema = new Schema<IUser>({
   firstname: { type: String, required: true },
   lastname: { type: String, required: true },
   email: { type: String, required: true },
-  password: { type: String, required: true }
+  password: { type: String, required: true },
+  roles : [{
+    type: Schema.Types.ObjectId,
+    ref: 'Role'
+  }]
 });
 
 // 3. Create a Model.
