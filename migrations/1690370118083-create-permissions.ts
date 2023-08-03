@@ -9,6 +9,8 @@ export async function up (): Promise<void> {
         'product.read',
         'product.update',
         'product.delete',
+        'user.read.me',
+        'user.update.me',
         'user.create',
         'user.read',
         'user.update',
